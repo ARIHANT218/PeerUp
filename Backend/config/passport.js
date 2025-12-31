@@ -10,7 +10,7 @@ passport.use(
     {
       clientID: process.env.GOOGLE_CLIENT_ID,
       clientSecret: process.env.GOOGLE_CLIENT_SECRET,
-      callbackURL: `${process.env.OAUTH_CALLBACK_BASE_URL}/google/callback`
+      callbackURL: `${process.env.OAUTH_CALLBACK_BASE_URL}/auth/google/callback`
     },
     async (_, __, profile, done) => {
       let user = await User.findOne({ googleId: profile.id });
