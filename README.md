@@ -10,35 +10,43 @@ _______________________________________
 🎯 Why PeerUp?
 
 Students often face problems like:
+
 Difficulty finding study partners at a similar skill level
+
 Mismatch in tech stack or learning goals
 Inefficient collaboration after discovering peers
+
 PeerUp solves this by:
-Using a scoring-based matching algorithm
-Ranking peers by relevance and fairness
-Providing real-time chat once a match is found
+
+Using a scoring-based matching algorithm 
+
+Ranking peers by relevance and fairness 
+
+Providing real-time chat once a match is found  
 ______________________________________________________________________________
 ⚙️ Features
 
 🔐 Google OAuth Authentication + JWT
 🧮 DSA-based Peer Matching Algorithm
+
 💬 Real-time Chat using Socket.IO
 👥 Study Group Creation & Management
+
 🔍 Search & Filter Matched Users
 📊 Dashboard with platform statistics
 📱 Responsive UI (mobile & desktop)
 ______________________________________________
 🚀 Getting Started
-Prerequisites
-Node.js (v18+)
-MongoDB (local or Atlas)
+Prerequisites   ||
+Node.js (v18+)   ||
+MongoDB (local or Atlas)   ||
 Google Cloud Console account (OAuth)
 ____________________________________________________
 📈 Future Enhancements
 
-Redis-based caching
-Adaptive matching weights
-Notifications for new matches
+Redis-based caching  ||
+Adaptive matching weights  || 
+Notifications for new matches ||
 Recommendation feedback loop
 _______________________________________________
 👨‍💻 Author
