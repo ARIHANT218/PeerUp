@@ -3,6 +3,7 @@
 A full-stack peer matching and collaboration platform that helps students find compatible study partners based on DSA level, skills, and tech stack, and collaborate through real-time chat and study groups.4
 _____________________________________________________________________________________
 📌 What is PeerUp?
+
 PeerUp is a web application designed to intelligently match students who want to study, practice DSA, or work on projects together.
 
 Instead of random or manual matching, PeerUp uses a custom DSA-based matching algorithm to rank the most relevant peers and enable instant collaboration.
